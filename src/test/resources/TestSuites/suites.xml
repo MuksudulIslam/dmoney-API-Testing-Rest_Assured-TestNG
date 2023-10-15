@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<suite name="D-Money Website APIs Chaining">
+
+    <test name="Admin Login">
+        <classes>
+            <class name="TestRunners.DmoneyLoginAPIsTestRunner"></class>
+        </classes>
+    </test>
+
+    <test name="Agent and Customer Account Creation By Admin">
+        <classes>
+            <class name="TestRunners.DmoneyUserCreateAPIsTestRunner"></class>
+        </classes>
+    </test>
+
+    <test name="Various Transaction Deposit, Withdraw, Send Money, Payment and Check Balance">
+        <classes>
+            <class name="TestRunners.DmoneyTransactionAPIsTestRunner"></class>
+        </classes>
+    </test>
+</suite>
